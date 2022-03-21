@@ -3305,10 +3305,10 @@
     worker-loader "3.0.8"
     write "2.0.0"
 
-"@fmfe/genesis-core@2.0.18":
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/@fmfe/genesis-core/-/genesis-core-2.0.18.tgz#4dbbae1bd9e480fbb65939cd54e5fab947efca79"
-  integrity sha512-Y01i0aY35j6ljGddeILF037HfomSb0bIXtroyjVEju7ZGG55m4pySQy2Alr/nzIe5cSKmzh9AHdnnark+YUnMw==
+"@fmfe/genesis-core@2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@fmfe/genesis-core/-/genesis-core-2.0.19.tgz#5d1db77f24963d0eb148d5c6b3cf54fd658a5719"
+  integrity sha512-S595buWzIIPKAFRmM5eCCeLbE2GJ/dLL9KS95jUfnVJsQHxOb0NTXiubbHRIpJS7uT8iz8iflE1p1YNeAb+WUA==
   dependencies:
     axios "0.25.0"
     del "6.0.0"
