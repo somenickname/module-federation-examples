@@ -1,10 +1,12 @@
-import { NameContextProvider } from '@shared-context/shared-library';
+import {ExposedContext} from 'app1/exposed-context';
 import React from 'react';
 
 const Welcome = () => {
-  const name = React.useContext(NameContextProvider);
+    const name = React.useContext(ExposedContext);
 
-  return <p>Welcome, {name}</p>;
+    return (
+        <p>Welcome, {name}</p>
+    );
 };
 
 export default Welcome;

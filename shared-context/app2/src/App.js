@@ -1,15 +1,17 @@
-import { NameContextProvider } from '@shared-context/shared-library';
 import React from 'react';
 import Welcome from './Welcome';
 
+import {ExposedContext} from 'app1/exposed-context';
+
 const App = () => (
-  <div>
-    <h1>Context Provider</h1>
-    <h2>App 2</h2>
-    <NameContextProvider.Provider value="Susan">
-      <Welcome />
-    </NameContextProvider.Provider>
-  </div>
+    <div>
+        <h1>Context Provider</h1>
+        <h2>App 2</h2>
+        <ExposedContext.Provider value="ExposedContext.Provider from app 2">
+        <Welcome/>
+        </ExposedContext.Provider>
+
+    </div>
 );
 
 export default App;
